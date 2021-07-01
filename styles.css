@@ -1,0 +1,244 @@
+.reg-form .form-field
+{
+    position: relative;
+    margin: 32px 0;
+}
+
+
+.reg-form .input-text
+{
+    width: 100%;
+    display: block;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #5543ca;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.reg-form .input-text:focus
+{
+    outline: none;
+}
+
+.reg-form .btn
+{
+    background-color: #f4524d;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 16px;
+    padding: 8px 16px;
+    width: 20em;
+}
+
+
+#one
+{
+    max-width: 800px;
+    margin: 50px auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    position: relative;
+    box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+    padding: 30px;
+
+}
+
+#two
+{
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+#one .title
+{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 3em;
+    line-height: 48px;
+    padding-bottom: 20px;
+    color: #5543ca;
+    background: linear-gradient(to right, #f4524d 0%, #5543ca 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.form-cotainer
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+form
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input-field
+{
+    max-width: 380px;
+    width: 100%;
+    height: 55px;
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0 .4rem;
+}
+
+.input-field i
+{
+    text-align: center;
+    line-height: 55px;
+    color: #acacac;
+    font-size: 1.1rem;
+}
+
+.input-field input
+{
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    color: #333;
+}
+
+.input-field input::placeholder
+{
+    color: #aaa;
+    font-weight: 500;
+}
+
+
+.input-buton .btn
+{
+    background: #9e15bf; 
+    width: 10em;
+    margin-top: 10%;
+}
+
+#fo1
+{
+    margin-top: 10%;
+    padding:5px;
+}
+
+#fo1 .input-text:focus
+{
+    outline: none;
+}
+
+#fo1 .input-text
+{
+    width: 75%;
+    margin-bottom: 5%;
+    display: block;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #431c5d;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+#fo1 .input-text::placeholder
+{
+    text-align: center;
+}
+
+.btn1
+{
+    margin-top: 10%;   
+    background-color: #00abe1;
+    color: #ffffff;
+}
+
+.btn2
+{
+    margin-top: 5%;
+    background-color: #431c5d;
+    color: #ffffff;
+}
+
+#four
+{
+    margin-top: 20%;
+}
+
+#five
+{
+    margin-top: 20%;
+}
+
+.form-coup .input-text
+{
+    background-color: transparent;
+    width: 100%;
+    margin-bottom: 5%;
+    display: block;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #F7882F;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.form-coup .input-text::placeholder
+{
+    text-align: center;
+    color: #000;
+}
+
+.form-coup .input-text:focus
+{
+    outline: none;
+}
+
+
+.card1 .card-title
+{
+    color: #490b3d;
+}
+
+.card1 p
+{
+    color: #bd1e51;
+    font-size: 2em;
+}
+
+.card1 .btn
+{
+    background-color: #1a2c42;
+}
+
+.card1
+{
+    background-color:#e1e2e2;
+    padding: 5%;
+    border: transparent;
+}
+
+.card2
+{
+    padding: 5%;
+    border: transparent;
+    background-color: #0f0c24;
+}
+
+.card2 .card-title
+{
+    margin-bottom: 10%;
+    color: #F7882F;  
+}
+
